@@ -2,8 +2,8 @@ library(sp)
 library(rgeos)
 library(GISTools)
 library(LatticeKrig)
-load("./RData/Spatial911PtPtrn.RData")
-load("./RData/AllTempData.RData")
+load("../code/RData/Spatial911PtPtrn.RData")
+load("../code/RData/AllTempData.RData")
 
 FacToNum <- function(x) {
   as.numeric(as.character(x))
